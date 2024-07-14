@@ -14,19 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/home', function () {
-    return view('home');
+    return view('home',['title'=>"Home Page"]);
 });
 Route::get('/contact', function () {
-    return view('contact');
+    return view('contact',['title'=>"ini halaman contact"]);
 });
 Route::get('/blog', function () {
-    return view('blog');
+    return view('blog',['title'=>"ini halaman blog"]);
 });
 Route::get('/about', function () {
-    return view('about',['nama'=>"darwanto",'umur'=>45,'alamat'=>"jalan samadi gg tiga"]);
+    return view('about',['title'=>"ini halaman about",'nama'=>"darwanto"]);
 });
 
