@@ -6,15 +6,19 @@
   @vite('resources/css/app.css')
 </head>
 <body>
- <!--
-  This example requires updating your template:
-
-  ```
-  <html class="h-full bg-gray-100">
-  <body class="h-full">
-  ```
--->
+ 
 <h1>ini contact</h1>
+<ul>
+  <li>
+    <a href="https://instagram.com/nusambatu">Instagram </a>
+  </li>
+  <li>
+    <a href="https://Youtube.com/nusambatu">Youtube </a>
+  </li>
+  <li>
+    <a href="https://github.com/nusambatu">Git hub </a>
+  </li>
+  </ul>
 
 </body>
 </html>

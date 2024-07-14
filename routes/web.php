@@ -26,4 +26,7 @@ Route::get('/contact', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+Route::get('/about', function () {
+    return view('about',['nama'=>"darwanto",'umur'=>45,'alamat'=>"jalan samadi gg tiga"]);
+});
 
